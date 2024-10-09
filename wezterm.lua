@@ -1,8 +1,11 @@
 local wezterm = require 'wezterm'
+
 return {
     font = wezterm.font 'JetBrains Mono',
     font_size = 12.0,
     window_background_opacity = 0.94,
+    
+
     enable_scroll_bar = true,
   color_schemes = {
     ["Custom"] = {
@@ -36,6 +39,7 @@ return {
       },
     },
   },
+  
 
   -- Apply the custom color scheme
   color_scheme = "Custom",
@@ -78,4 +82,5 @@ return {
 
   use_fancy_tab_bar = false,
   hide_tab_bar_if_only_one_tab = true,
+  
 }
